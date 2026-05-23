@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+*.xcodeproj
+
+# Packaged macOS App
+ConceptNest.app
