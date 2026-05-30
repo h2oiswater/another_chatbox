@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:jolly-noether}",
+            "name": "Debug ConceptNest",
+            "target": "ConceptNest",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug ConceptNest"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:jolly-noether}",
+            "name": "Release ConceptNest",
+            "target": "ConceptNest",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release ConceptNest"
+        }
+    ]
+}

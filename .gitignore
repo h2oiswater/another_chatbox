@@ -8,3 +8,12 @@
 
 # Packaged macOS App
 ConceptNest.app
+
+# Node / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*.local
+.eslintcache
